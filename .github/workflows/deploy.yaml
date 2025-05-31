@@ -50,7 +50,7 @@ jobs:
     
     steps:
       - name: Checkout master branch
-        uses: action/checkout@v4
+        uses: actions/checkout@v4
         with:
           ref: master
 
